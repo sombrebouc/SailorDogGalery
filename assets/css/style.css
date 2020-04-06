@@ -3,7 +3,16 @@ html{
     width: 80vw;
     height: auto;
 }
-
+header
+{
+    text-align: right;
+    font-family: tattoo ink;
+    font-size: 4em;
+    margin-top: 1em;
+    margin-right: 0em;
+    padding-right: 0em;
+    background-color: rgb(255, 255, 255);
+}
 body{
     width: 100%;
     height: auto;
@@ -23,7 +32,8 @@ nav{
     justify-content: center;
     margin-left: 40vw;
     height: 40px;
-    font-size: 24px;
+    font-size: 12px;
+    font-family: tattoo ink;
             
 }
 .navtitle{
