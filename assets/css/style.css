@@ -15,3 +15,101 @@ a{
     border-right: solid 1px;
     padding-right: 40px;
 }
+/*general*/
+html ,{
+    background-color: hotpink;
+    width: 80vw;
+    height: auto;
+}
+
+body{
+    margin: 0 6em 0 6em;
+    background-color: gainsboro;
+}
+/*header*/
+
+/*main*/
+
+/*A propos de moi*/
+
+#container1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    margin-top: 6em;
+}
+
+.title-container1{
+    flex-basis: 100%;
+    height: auto;
+    background-color: green;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+}
+
+.img-container1{
+    flex-basis: 30%;
+    height: auto;
+    background-color: midnightblue;
+}
+
+.img-container1 img{
+    width: 100%;
+    height: auto;
+}
+
+.text-container1{
+    flex-basis: 70%;
+    height: auto;
+    background-color: grey;
+}
+
+/*Gallerie*/
+
+#container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #3cc01b;
+    margin-top:10em;
+}
+/*Produit*/
+
+#container3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #7324db;
+    margin-top:10em;
+}
+
+/*Contact*/
+#container4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #e71212;
+    margin-top:10em;
+}
+
+/*liens*/
+#container5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d8168d;
+    margin-top:10em;
+}
+/*footer*/
+
