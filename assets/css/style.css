@@ -1,12 +1,13 @@
 /*general*/
-html ,{
-    background-color: hotpink;
+html{
     width: 80vw;
     height: auto;
 }
 
 body{
-    margin: 0 6em 0 6em;
+    width: 100%;
+    height: auto;
+    margin: 0 6em 0 8em;
     background-color: gainsboro;
 }
 /*header*/
@@ -28,15 +29,15 @@ body{
 .title-container1{
     flex-basis: 100%;
     height: auto;
-    background-color: green;
     font-family: 'Indie Flower', cursive;
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .img-container1{
     flex-basis: 30%;
     height: auto;
-    background-color: midnightblue;
+    padding-top: 2em;
 }
 
 .img-container1 img{
@@ -48,16 +49,15 @@ body{
 .text-container1{
     flex-basis: 70%;
     height: auto;
-    background-color: grey;
     text-align: center;
 }
 
 .text-container1 p{
-    padding-top: 1em;
+    padding: 1em 1.3em 0 1.3em;
     
 }
 
-/*Gallerie*/
+/*Galerie*/
 
 #container2{
     width: 100%;
@@ -68,6 +68,42 @@ body{
     background-color: #3cc01b;
     margin-top:10em;
 }
+
+.title-container2{
+    flex-basis: 100%;
+    height: auto;
+}
+
+.zoom{
+    width: 120px;
+    height: 160px;
+}
+.image{
+    flex-basis: 100%;
+    height: auto;
+    background-color: tomato;
+}
+.image img{
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.75); /* Safari et Chrome */
+    -moz-transform:scale(1.75); /* Firefox */
+    -ms-transform:scale(1.75); /* Internet Explorer 9 */
+    -o-transform:scale(1.75); /* Opera */
+    transform:scale(1.75);
+    }
+
+
+
 /*Produit*/
 
 #container3{
