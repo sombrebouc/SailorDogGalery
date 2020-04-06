@@ -3,34 +3,31 @@ html{
     width: 80vw;
     height: auto;
 }
-<<<<<<< HEAD
+
 header
 {
     text-align: right;
     font-family: tattoo ink;
-    font-size: 4em;
+    font-size: 40px;
     margin-top: 1em;
     margin-right: 0em;
     padding-right: 0em;
-    background-color: rgb(255, 255, 255);
 }
-=======
 /* general */
 
 /* Police ecriture */
 @font-face{
-    font-family: 'tatti';
+    font-family: tattoo ink;
     src: url("/SailorDogGalery/assets/font/TATTI__.TTF") format("ttf");
-    font-family: 'cookie';
+    font-family: cookie;
     src: url("/SailorDogGalery/assets/font/Cookie-Regular.ttf") format("ttf");
 }
 /* Police ecriture */
->>>>>>> 2ed30f4d07c3901314527f5757a0a10ffafd1d41
 body{
     width: 100%;
     height: auto;
     margin: 0 6em 0 8em;
-    background-color: gainsboro;
+    background-color: rgb(255, 255, 255);
 }
 /*header*/
 h1{
@@ -40,7 +37,6 @@ h1{
 /* Barre de Navigation */
 nav{      
     position: sticky;
-    top: 0px;
     text-align: center;
     width: 80%;
     display: flex;
@@ -48,24 +44,28 @@ nav{
     justify-content: center;
     margin-left: 33%;
     height: 40px;
-    font-size: 12px;
-    font-family: tattoo ink;
+    font-size: 24px;
+    font-family: cookie;
             
 }
-.navtitle{
-    text-decoration: none;        
+.navtitle
+{
     padding-right: 40px;
     padding-left: 40px;
-    background-color: rgb(0, 0, 0, 0.4);
-    border: solid 2px;
-    border-radius: 1px;
+    text-decoration: none;
     color: black;
+    background-color: rgba(165, 165, 165, 0.4);    
 }
-
-.nav5{
-    border-radius: 0px 10px 10px 0px;
+.nav5
+{
+    border-radius: 0px 0px 10px 0px;
 }
-li{
+.nav1
+{
+    border-radius: 10px 0px 0px 0px;
+}
+li
+{
     list-style-type: none;
     height: 40px;         
 }
@@ -81,16 +81,18 @@ li{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #f0f0f0;
     margin-top: 6em;
 }
 
 .title-container1{
     flex-basis: 100%;
     height: auto;
-    font-family: 'Indie Flower', cursive;
+    font-family: Cookie;
     font-size: 2em;
     margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
+    border-radius: 10px 0 10px 0;
 }
 
 .img-container1{
@@ -103,15 +105,16 @@ li{
     width: 100%;
     height: auto;
 }
-
-
-.text-container1{
+.text-container1
+{
     flex-basis: 70%;
     height: auto;
+    font-family: Cookie;
+    font-size: 25px;
     text-align: center;
 }
-
-.text-container1 p{
+.text-container1 p
+{
     padding: 1em 1.3em 0 1.3em;
     
 }
@@ -126,7 +129,7 @@ li{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top:10em;
-    background-color: rgb(184, 180, 180);
+   /* background-color: rgb(184, 180, 180);*/
 }
 
 .title-container2{
@@ -135,7 +138,9 @@ li{
     font-family: 'Indie Flower', cursive;
     font-size: 2em;
     margin-bottom: 1em;
+    border-radius: 10px 0 10px 0;
     text-align:center;
+    background-color: ;
 }
 
 .zoom{
