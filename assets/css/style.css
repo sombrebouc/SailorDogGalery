@@ -1,6 +1,5 @@
 /*general*/
-html {
-    background-color: hotpink;
+html{
     width: 80vw;
     height: auto;
 }
@@ -13,7 +12,9 @@ html {
 }
 /* Police ecriture */
 body{
-    margin: 0 6em 0 6em;
+    width: 100%;
+    height: auto;
+    margin: 0 6em 0 8em;
     background-color: gainsboro;
 }
 /*header*/
@@ -71,15 +72,15 @@ li{
 .title-container1{
     flex-basis: 100%;
     height: auto;
-    background-color: green;
     font-family: 'Indie Flower', cursive;
     font-size: 2em;
+    margin-bottom: 1em;
 }
 
 .img-container1{
     flex-basis: 30%;
     height: auto;
-    background-color: midnightblue;
+    padding-top: 2em;
 }
 
 .img-container1 img{
@@ -91,26 +92,67 @@ li{
 .text-container1{
     flex-basis: 70%;
     height: auto;
-    background-color: grey;
     text-align: center;
 }
 
 .text-container1 p{
-    padding-top: 1em;
+    padding: 1em 1.3em 0 1.3em;
     
 }
 
-/*Gallerie*/
+/*Galerie*/
 
 #container2{
     width: 100%;
-    height: auto;
+    height: 40vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #3cc01b;
+    justify-content: space-between;
     margin-top:10em;
+    background-color: rgb(184, 180, 180);
 }
+
+.title-container2{
+    flex-basis: 100%;
+    height: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align:center;
+}
+
+.zoom{
+    width: 160px;
+    height: 160px;
+}
+.image{
+    flex-basis: 100%;
+    height: auto;
+    padding:1em;
+
+}
+.image img{
+    width: 100%;
+    height: auto;
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    /* L'image est grossie de 25% */
+    -webkit-transform:scale(1.75); /* Safari et Chrome */
+    -moz-transform:scale(1.75); /* Firefox */
+    -ms-transform:scale(1.75); /* Internet Explorer 9 */
+    -o-transform:scale(1.75); /* Opera */
+    transform:scale(1.75);
+    }
+
+
+
 /*Produit*/
 
 #container3{
