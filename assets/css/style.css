@@ -2,6 +2,8 @@
 html{
     width: 80vw;
     height: auto;
+    text-justify: auto;
+    /*background-color: rgba(165, 165, 165, 0.4);*/
 }
 
 header
@@ -18,12 +20,12 @@ header
 /* Police ecriture */
 @font-face{
     font-family: tattoo ink;
-    src: url("/SailorDogGalery/assets/font/TATTI__.TTF") format("ttf");
+    src: url("/SailorDogGalery/assets/font/TATTI_.TTF") format("ttf");
     font-family: cookie;
     src: url("/SailorDogGalery/assets/font/Cookie-Regular.ttf") format("ttf");
 }
 /* Police ecriture */
-body{
+body{    
     width: 100%;
     height: auto;
     margin: 0 6em 0 8em;
@@ -32,43 +34,46 @@ body{
 /* Barre de Navigation */
 nav{      
     position: sticky;
-    text-align: center;
-    width: 80%;
+    top: 0px;    
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: center;
-    margin-left: 33%;
-    height: 40px;
-    font-size: 24px;
+    justify-content: flex-end;
+    height: auto;
+    font-size: 1.3em;
     font-family: cookie;
+    list-style-type: none;
 }
 .navtitle
 {
-    padding-right: 40px;
-    padding-left: 40px;
-    text-decoration: none;
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    text-decoration: none;   
+    height: auto;
+    border-radius: 1px;
     color: black;
-    background-color: rgba(165, 165, 165, 0.4);    
+    background-color: rgba(165, 165, 165, 0.4);
+} 
+.nav1
+{
+    border-radius: 10px 0px 0px 0px;
 }
 .nav5
 {
     border-radius: 0px 0px 10px 0px;
 }
-.nav1
-{
-    border-radius: 10px 0px 0px 0px;
-}
 /*A propos de moi*/
 
-#container1{
+#container1{    
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 6em;
+    margin-top: 6em;    
 }
-.title-container1{
+.title-container1
+{
     flex-basis: 100%;
     height: auto;
     font-family: Cookie;
@@ -93,7 +98,7 @@ nav{
     height: auto;
     font-family: Cookie;
     font-size: 25px;
-    text-align: left;
+    text-align: center;    
 }
 .text-container1 p
 {
@@ -109,20 +114,17 @@ nav{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top:10em;
-   /* background-color: rgb(184, 180, 180);*/
 }
-
-.title-container2{
+.title-container2 {
     flex-basis: 100%;
     height: auto;
-    font-family: 'Indie Flower', cursive;
+    font-family: Cookie;
     font-size: 2em;
     margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
     border-radius: 10px 0 10px 0;
-    text-align:center;
-    background-color: ;
 }
-
 .zoom{
     width: 190px;
     height: 190px;
@@ -151,8 +153,6 @@ nav{
     -o-transform:scale(2.75); /* Opera */
     transform:scale(2.75);
     }
-
-
 
 /*Produit*/
 
