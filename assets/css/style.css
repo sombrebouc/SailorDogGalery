@@ -2,6 +2,8 @@
 html{
     width: 80vw;
     height: auto;
+    text-justify: auto;
+    background-color: rgba(127, 127, 127, 0.2);
 }
 
 header
@@ -23,16 +25,11 @@ header
     src: url("/SailorDogGalery/assets/font/Cookie-Regular.ttf") format("ttf");
 }
 /* Police ecriture */
-body{
+body{    
     width: 100%;
     height: auto;
     margin: 0 6em 0 8em;
     background-color: rgb(255, 255, 255);
-}
-/*header*/
-h1{
-    text-align: center;
-    font-family: "cookie";       
 }
 /* Barre de Navigation */
 nav{      
@@ -74,13 +71,13 @@ li
 
 /*A propos de moi*/
 
-#container1{
+#container1{    
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 6em;
+    margin-top: 6em;    
 }
 
 .title-container1{
@@ -110,7 +107,7 @@ li
     height: auto;
     font-family: Cookie;
     font-size: 25px;
-    text-align: center;
+    text-align: center;    
 }
 .text-container1 p
 {
