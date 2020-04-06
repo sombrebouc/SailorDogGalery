@@ -1,22 +1,30 @@
 /*general*/
-html ,{
+html {
     background-color: hotpink;
     width: 80vw;
     height: auto;
 }
 
+/* Police ecriture */
+@font-face{
+    font-family: "tatti";
+    src: url("/SailorDogGalery/assets/font/TATTI_.TTF");
+}
 body{
     margin: 0 6em 0 6em;
     background-color: gainsboro;
 }
 /*header*/
-
+h1{
+    text-align: center;
+    font-family: "tatti";       
+}
 /* Barre de Navigation */
 nav{      
     position: sticky;
     top: 0px;
     text-align: center;
-    width: 50vw;
+    width: 80%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
