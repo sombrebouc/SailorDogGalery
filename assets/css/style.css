@@ -29,11 +29,6 @@ body{
     margin: 0 6em 0 8em;
     background-color: rgb(255, 255, 255);
 }
-/*header*/
-h1{
-    text-align: center;
-    font-family: "cookie";       
-}
 /* Barre de Navigation */
 nav{      
     position: sticky;
@@ -46,7 +41,6 @@ nav{
     height: 40px;
     font-size: 24px;
     font-family: cookie;
-            
 }
 .navtitle
 {
@@ -64,15 +58,6 @@ nav{
 {
     border-radius: 10px 0px 0px 0px;
 }
-li
-{
-    list-style-type: none;
-    height: 40px;         
-}
-/* barre de navigation */
-
-/*main*/
-
 /*A propos de moi*/
 
 #container1{
@@ -83,7 +68,6 @@ li
     flex-wrap: wrap;
     margin-top: 6em;
 }
-
 .title-container1{
     flex-basis: 100%;
     height: auto;
@@ -94,13 +78,11 @@ li
     background-color: rgba(165, 165, 165, 0.4);
     border-radius: 10px 0 10px 0;
 }
-
 .img-container1{
     flex-basis: 30%;
     height: auto;
     padding-top: 2em;
 }
-
 .img-container1 img{
     width: 100%;
     height: auto;
@@ -111,14 +93,12 @@ li
     height: auto;
     font-family: Cookie;
     font-size: 25px;
-    text-align: center;
+    text-align: left;
 }
 .text-container1 p
 {
     padding: 1em 1.3em 0 1.3em;
-    
 }
-
 /*Galerie*/
 
 #container2{
