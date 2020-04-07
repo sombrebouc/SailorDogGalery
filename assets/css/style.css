@@ -9,7 +9,7 @@ header
 {
     text-align: right;
     font-family: 'tattoo ink';
-    font-size: 40px;
+    font-size: 2.8em;
     margin-top: 1em;
     margin-right: 0em;
     padding-right: 0em;
@@ -31,16 +31,12 @@ header
 }
 
 header img{
-    width:100%;
+    width:80%;
     height: auto;
 }
 
-
 /* general */
 
-/* Police ecriture */
-
-/* Police ecriture */
 body{    
     width: 100%;
     height: auto;
@@ -55,11 +51,12 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    height: auto;
+    height: 1.7em;
     font-size: 1.5em;
     font-family: 'cookie';
     list-style-type: none;
     z-index: 600;
+    align-items: center;
 }
 
 .navtitle
@@ -123,7 +120,7 @@ h3
     flex-basis: 70%;
     height: auto;
     font-family: 'Cookie';
-    font-size: 25px;
+    font-size: 1.6em;
     text-align: center;    
 }
 .text-container1 p
@@ -202,7 +199,6 @@ h3
 .goodies3{
     flex-basis: 20vh;
     height: auto;
-    align-items: center;
 }
 
 .goodies4{
@@ -214,6 +210,19 @@ h3
     width: 100%;
     height: auto;
 }
+
+.goodies-infos
+{
+    flex-basis: 100%;
+    height: auto;
+    font-family: 'Cookie';
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    font-weight: normal;
+}
+
 /* Produit */
 
 /*Contact*/
@@ -229,52 +238,49 @@ h3
 
 /* Formulaire */
 
-form{
-margin-left: 100px;    
-}
 input, textarea
 {       
-    border: none;
-    margin: 5px;   
-    padding: 10px;
+    border: dotted 2px;
+    margin: 0.2em;   
+    padding: 0.4em;
     background: rgba(255,255,255,0.4);
     color: #333;
-    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
-    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
-    font-family: cookie;
+    font-family: 'cookie';
+    resize : none;
     font-size: 24px;
 }
 
 input#user_fname, input#user_lname
 {
-    width: 318px;
+    margin-top: 2em;
+    width: 10.2em;
 }
 
 #user_mail, #subject_mail, #message
 {
-    width: 670px;
+    width: 22em;
 }
 
 #sendmessage
 {
-    width: 690px;
+    width: 23em;
 }
 .formimg{
-    width: 400px;
-    height: 400px;
-    margin-left: 50px;    
+    margin-left: 7em;
+    margin-top: 3em;
+    width: 25em;  
 }
 /* Formulaire */
 
 /* Contact */
 /*liens*/
-#container5{
+#container5 {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;    
-    margin-top:10em;   
+    flex-wrap: wrap;
+    margin-top: 10em;
     justify-content: center;
 }
 
@@ -284,5 +290,10 @@ input#user_fname, input#user_lname
     height: 10em;
 }
 /*footer*/
-
-
+footer{
+    margin-top: 3em;
+    text-align: center;
+    font-family: 'Indie Flower';
+    font-size: 1.3em;
+    background-color: rgba(165, 165, 165, 0.4);
+}
