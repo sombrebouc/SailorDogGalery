@@ -1,0 +1,277 @@
+/*general*/
+html{
+    width: 80vw;
+    height: auto;
+    text-justify: auto;
+}
+
+header
+{
+    text-align: right;
+    font-family: 'tattoo ink';
+    font-size: 40px;
+    margin-top: 1em;
+    margin-right: 0em;
+    padding-right: 0em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.banniere{
+    flex-basis: 40%;
+    height: auto;
+    justify-content: center;
+}
+
+.title-banniere{
+    flex-basis: 60%;
+    height: auto;
+    display: flex;
+    justify-content: end;
+}
+
+header img{
+    width:100%;
+    height: auto;
+}
+
+h3{
+    flex-basis: 100%;
+    height: auto;
+    font-family: 'Cookie';
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
+    border-radius: 10px 0 10px 0;
+}
+
+
+/* Police ecriture */
+body{    
+    width: 100%;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+/* Barre de Navigation */
+nav{      
+    position: sticky;
+    top: 0px;    
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    height: auto;
+    font-size: 1.5em;
+    font-family: 'cookie';
+    list-style-type: none;
+    z-index: 600;
+}
+
+.navtitle
+{
+    padding-right: 1.2em;
+    padding-left: 1.2em;
+    background-color: rgb(0, 0, 0, 0.4);    
+    text-decoration: none;   
+    height: auto;    
+    color: black;
+    background-color: rgba(165, 165, 165, 0.4);
+} 
+.nav1
+{
+    border-radius: 10px 0px 0px 0px;
+}
+
+.nav5
+{
+    border-radius: 0px 0px 10px 0px;
+}
+
+/* barre de navigation */
+
+/*main*/
+
+
+
+/*A propos de moi*/
+
+#container1{    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 6em;    
+}
+
+.img-container1{
+    flex-basis: 30%;
+    height: auto;
+    padding-top: 2em;
+}
+.img-container1 img{
+    width: 100%;
+    height: auto;
+}
+.text-container1
+{
+    flex-basis: 70%;
+    height: auto;
+    font-family: 'Cookie';
+    font-size: 25px;
+    text-align: center;    
+}
+.text-container1 p
+{
+    padding: 1em 1.3em 0 1.3em;
+}
+/*Galerie*/
+
+#container2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top:10em;
+}
+
+.zoom{
+    width: 190px;
+    height: 190px;
+}
+.image{
+    flex-basis: 100%;
+    height: auto;
+    padding:1em;
+
+}
+.image img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    -webkit-transition: all 1s ease; /* Safari et Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* Internet Explorer 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.image:hover img {
+    /* L'image est grossie x 2.75 */
+    -webkit-transform:scale(2.75); /* Safari et Chrome */
+    -moz-transform:scale(2.75); /* Firefox */
+    -ms-transform:scale(2.75); /* Internet Explorer 9 */
+    -o-transform:scale(2.75); /* Opera */
+    transform:scale(2.75);
+    }
+
+/*Produit*/
+
+#container3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top:10em;
+}
+
+.img-container3{
+    flex-basis: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+.goonies1{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies2{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies3{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies4{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies1 img , .goonies2 img , .goonies3 img , .goonies4 img{
+    width: 100%;
+    height: auto;
+}
+/* Produit */
+
+/*Contact*/
+#container4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+    margin-top:10em;
+    justify-content: center;   
+}
+
+
+/* Formulaire */
+
+input, textarea
+{       
+    border: none;
+    margin: 5px;   
+    padding: 10px;
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    font-family: 'cookie';
+    font-size: 24px;
+}
+
+input#user_fname, input#user_lname
+{
+    margin-top: 2em;
+    width: 10em;
+}
+
+#user_mail, #subject_mail, #message
+{
+    width: 21.5em;
+}
+
+#sendmessage
+{
+    width: 22.4em;
+}
+.formimg{
+    margin-left: 7em;
+    width: 20em;
+    height: 28em;   
+}
+/* Formulaire */
+
+/* Contact */
+/*liens*/
+#container5{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #d8168d;
+    margin-top:10em;
+}
+/*footer*/
+
