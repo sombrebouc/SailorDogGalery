@@ -32,7 +32,7 @@ header
 {
     text-align: right;
     font-family: 'tattoo ink';
-    font-size: 40px;
+    font-size: 2.8em;
     margin-top: 1em;
     margin-right: 0em;
     padding-right: 0em;
@@ -71,16 +71,17 @@ header img{
 /* Barre de Navigation */
 nav{      
     position: sticky;
-    top: 0px;    
+    top: 0;    
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
     height: auto;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'cookie';
     list-style-type: none;
     z-index: 600;
+    align-items: center;
 }
 
 .navtitle
@@ -134,7 +135,7 @@ nav{
     flex-basis: 70%;
     height: auto;
     font-family: 'Cookie';
-    font-size: 25px;
+    font-size: 1.6em;
     text-align: center;    
 }
 .text-container1 p
@@ -275,17 +276,17 @@ input, textarea
 input#user_fname, input#user_lname
 {
     margin-top: 2em;
-    width: 10em;
+    width: 10.2em;
 }
 
 #user_mail, #subject_mail, #message
 {
-    width: 21.5em;
+    width: 22em;
 }
 
 #sendmessage
 {
-    width: 22.4em;
+    width: 23em;
 }
 .formimg{
     margin-left: 7em;
@@ -316,5 +317,5 @@ footer{
     margin-top: 3em;
     text-align: center;
     font-family: 'Indie Flower';
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
