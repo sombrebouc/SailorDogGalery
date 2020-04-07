@@ -77,7 +77,7 @@ nav{
     flex-flow: row nowrap;
     justify-content: flex-end;
     height: auto;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-family: 'cookie';
     list-style-type: none;
     z-index: 600;
@@ -272,20 +272,27 @@ input, textarea
     font-size: 24px;
 }
 
-input#user_fname, input#user_lname
+input#user_fname
 {
     margin-top: 2em;
-    width: 10em;
+    width: 10.2em;
+}
+
+input#user_lname
+{
+    margin-top: 2em;
+    width: 10.2em;
+    border-radius: 10px 0 0 0;
 }
 
 #user_mail, #subject_mail, #message
 {
-    width: 21.5em;
+    width: 22em;
 }
 
 #sendmessage
 {
-    width: 22.4em;
+    width: 23em;
     border-radius: 0 0 10px 0;
 }
 .formimg{
@@ -313,7 +320,8 @@ input#user_fname, input#user_lname
 
 
 /*footer*/
-footer{
+footer
+{
     margin-top: 3em;
     text-align: center;
     font-family: 'Indie Flower';
