@@ -14,11 +14,11 @@
                 Sailor Dog Gallery
             </header>
             <nav>            
-                    <li><a class="navtitle nav1" href="#container1">Accueil</a></li>
-                    <li><a class="navtitle nav2" href="#container2">Gallerie</a></li>
-                    <li><a class="navtitle nav3" href="#container3">Produits</a></li>
-                    <li><a class="navtitle nav4" href="#container4">Contact</a></li>
-                    <li><a class="navtitle nav5" href="#container5">Liens utiles</a></li>
+                    <a class="navtitle nav1" href="#container1">Accueil</a>
+                    <a class="navtitle nav2" href="#container2">Gallerie</a>
+                    <a class="navtitle nav3" href="#container3">Produits</a>
+                    <a class="navtitle nav4" href="#container4">Contact</a>
+                    <a class="navtitle nav5" href="#container5">Liens utiles</a>
             </nav>
             <main>
                 <section id="container1">
@@ -227,8 +227,21 @@
                     <div class="text-container3"></div>
                 </section>
 
-                <section id="container4">4
-                    <div class="title-container4">Contact</div>
+                <section id="container4">
+                    <div class="title-container4"></div>
+                    <div class="contactme">
+                        <h2>Me contacter</h2>
+                        <div class="formulaire">
+                        <form action="">
+                            <input type="text" name="nom" id="user_lname" placeholder="Nom">
+                            <input type="text" name="prenom" id="user_fname" placeholder="Prenom"><br>
+                            <input type="email" name="adressemail" id="user_mail" placeholder="Adresse mail" ><br>
+                            <input type="text" name="Objet" id="subject_mail" placeholder="Objet du message">  <br>
+                            <textarea name="message_mail" id="message" cols="30" rows="5" placeholder="Votre Message..."></textarea><br>
+                            <input type="submit" name="envoyer" id="sendmessage" value="Envoyer">
+                        </form>
+                        </div>
+                    </div>
                     <div class="img-container4"></div>
                     <div class="text-container4"></div>
                 </section>
@@ -247,6 +260,3 @@
 
         </body>
     </html>
-    <div class="nav nav1"></div>
-    <div class="nav nav2"></div>
-    <div class="nav nav3"></div>

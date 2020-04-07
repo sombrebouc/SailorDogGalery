@@ -9,7 +9,7 @@ html{
 header
 {
     text-align: right;
-    font-family: tattoo ink;
+    font-family: 'tattoo ink';
     font-size: 40px;
     margin-top: 1em;
     margin-right: 0em;
@@ -19,9 +19,8 @@ header
 
 /* Police ecriture */
 @font-face{
-    font-family: tattoo ink;
-    src: url("/SailorDogGalery/assets/font/TATTI__.TTF") format("ttf");
-    font-family: cookie;
+    font-family: 'tattoo ink';
+    src: url("/SailorDogGalery/assets/font/TATTI__.TTF") format("ttf");    
     src: url("/SailorDogGalery/assets/font/Cookie-Regular.ttf") format("ttf");
 }
 /* Police ecriture */
@@ -40,14 +39,15 @@ nav{
     flex-flow: row nowrap;
     justify-content: flex-end;    
     height: auto;
-    font-size: 1.3em;        
+    font-size: 1.3em;
+    list-style-type: none;
+    z-index: 200;      
 }
 .navtitle{
     text-decoration: none;        
     padding-right: 1.2em;
     padding-left: 1.2em;
-    background-color: rgb(0, 0, 0, 0.4);
-    border: solid 2px;
+    background-color: rgb(0, 0, 0, 0.4);    
     border-radius: 1px;
     color: black;
     background-color: rgba(165, 165, 165, 0.4);    
@@ -60,11 +60,7 @@ nav{
 {
     border-radius: 10px 0px 0px 0px;
 }
-li
-{
-    list-style-type: none;
-    height: auto;         
-}
+
 /* barre de navigation */
 
 /*main*/
@@ -83,7 +79,7 @@ li
 .title-container1{
     flex-basis: 100%;
     height: auto;
-    font-family: Cookie;
+    font-family: "cookie";
     font-size: 2em;
     margin-bottom: 1em;
     padding-left: 1em;
@@ -105,7 +101,7 @@ li
 {
     flex-basis: 70%;
     height: auto;
-    font-family: Cookie;
+    font-family: "cookie";
     font-size: 25px;
     text-align: center;    
 }
@@ -188,11 +184,35 @@ li
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #e71212;
+    flex-wrap: wrap;   
     margin-top:10em;
+    justify-content: center;
+}
+input, textarea
+{       
+    border: none;
+    margin: 5px;   
+    padding: 10px;
+    background: rgba(255,255,255,0.4);
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
 }
 
+input#user_fname, input#user_lname
+{
+    width: 150px;
+}
+
+#user_mail, #subject_mail, #message
+{
+    width: 335px;
+}
+
+#sendmessage
+{
+    width: 354px;
+}
 /*liens*/
 #container5{
     width: 100%;
