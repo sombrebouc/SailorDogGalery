@@ -18,13 +18,13 @@ header
     flex-wrap: nowrap;
 }
 .banniere{
-    flex-basis: 40%;
+    flex-basis: 30%;
     height: auto;
     justify-content: center;
 }
 
 .title-banniere{
-    flex-basis: 60%;
+    flex-basis: 70%;
     height: auto;
     display: flex;
     justify-content: end;
@@ -98,7 +98,7 @@ nav{
     flex-wrap: wrap;
     margin-top: 6em;    
 }
-.title-container1
+h3
 {
     flex-basis: 100%;
     height: auto;
@@ -141,16 +141,6 @@ nav{
     justify-content: space-between;
     margin-top:10em;
 }
-.title-container2 {
-    flex-basis: 100%;
-    height: auto;
-    font-family: Cookie;
-    font-size: 2em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    background-color: rgba(165, 165, 165, 0.4);
-    border-radius: 10px 0 10px 0;
-}
 .zoom{
     width: 190px;
     height: 190px;
@@ -191,17 +181,6 @@ nav{
     flex-wrap: wrap;
     margin-top:10em;
 }
-.title-container3
-{
-    flex-basis: 100%;
-    height: auto;
-    font-family: 'Cookie';
-    font-size: 2em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    background-color: rgba(165, 165, 165, 0.4);
-    border-radius: 10px 0 10px 0;
-}
 
 .img-container3{
     flex-basis: 100%;
@@ -210,27 +189,28 @@ nav{
     justify-content: space-evenly;
     padding-top: 2em;
 }
-.goonies1{
-    flex-basis: 23%;
+.goodies1{
+    flex-basis: 20vh;
     height: auto;
 }
 
-.goonies2{
-    flex-basis: 23%;
+.goodies2{
+    flex-basis: 20vh;
     height: auto;
 }
 
-.goonies3{
-    flex-basis: 23%;
+.goodies3{
+    flex-basis: 20vh;
+    height: auto;
+    align-items: center;
+}
+
+.goodies4{
+    flex-basis: 20vh;
     height: auto;
 }
 
-.goonies4{
-    flex-basis: 23%;
-    height: auto;
-}
-
-.goonies1 img , .goonies2 img , .goonies3 img , .goonies4 img{
+.goodies1 img , .goodies2 img , .goodies3 img , .goodies4 img{
     width: 100%;
     height: auto;
 }
@@ -245,17 +225,6 @@ nav{
     flex-wrap: wrap;   
     margin-top:10em;
     justify-content: center;   
-}
-
-.title-container4 {
-    flex-basis: 100%;
-    height: auto;
-    font-family: Cookie;
-    font-size: 2em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    background-color: rgba(165, 165, 165, 0.4);
-    border-radius: 10px 0 10px 0;
 }
 
 /* Formulaire */
@@ -304,9 +273,16 @@ input#user_fname, input#user_lname
     height: auto;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    background-color: #d8168d;
-    margin-top:10em;
+    flex-wrap: wrap;    
+    margin-top:10em;   
+    justify-content: center;
+}
+
+.pagefriends img{ 
+    margin: 1.5em;
+    width: 10em;
+    height: 10em;
 }
 /*footer*/
+
 
