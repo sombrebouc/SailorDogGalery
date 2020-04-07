@@ -3,6 +3,7 @@ html{
     width: 80vw;
     height: auto;
     text-justify: auto;
+    background-image: url(/SailorDogGalery/assets/images/sea.jpg);
 }
 
 header
@@ -42,6 +43,7 @@ header img{
 
 /* Police ecriture */
 body{    
+    background-image: url(/SailorDogGalery/assets/images/sea.jpg);
     width: 100%;
     height: auto;
     margin-left: 10vw;
@@ -293,7 +295,7 @@ input#user_fname, input#user_lname
 .formimg{
     width: 400px;
     height: 400px;
-    margin-left: 200px;    
+    margin-left: 50px;    
 }
 /* Formulaire */
 
