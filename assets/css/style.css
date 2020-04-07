@@ -51,7 +51,7 @@ nav{
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
-    height: 1.7em;
+    height: auto;
     font-size: 1.5em;
     font-family: 'cookie';
     list-style-type: none;
