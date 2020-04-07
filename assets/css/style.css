@@ -36,8 +36,6 @@ header img{
 }
 
 
-/* general */
-
 /* Police ecriture */
 @font-face{
     font-family: 'tattoo ink';
@@ -100,7 +98,7 @@ nav{
     font-size: 2em;
     margin-bottom: 1em;
     padding-left: 1em;
-    background-color: rgba(255, 251, 251, 0.418);
+    background-color: rgba(165, 165, 165, 0.4);
     border-radius: 10px 0 10px 0;
 }
 .img-container1{
@@ -183,8 +181,51 @@ nav{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #7324db;
     margin-top:10em;
+}
+
+.title-container3
+{
+    flex-basis: 100%;
+    height: auto;
+    font-family: 'Cookie';
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
+    border-radius: 10px 0 10px 0;
+}
+
+.img-container3{
+    flex-basis: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+.goonies1{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies2{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies3{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies4{
+    flex-basis: 23%;
+    height: auto;
+}
+
+.goonies1 img , .goonies2 img , .goonies3 img , .goonies4 img{
+    width: 100%;
+    height: auto;
 }
 
 /*Contact*/
