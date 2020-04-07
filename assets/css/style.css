@@ -4,6 +4,29 @@ html{
     height: auto;
     text-justify: auto;
 }
+body{    
+    width: 100%;
+    height: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h3{
+    flex-basis: 100%;
+    height: auto;
+    font-family: 'Cookie';
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
+    border-radius: 10px 0 10px 0;
+    font-weight: normal;
+}
+
+/*general*/
+
+
+/*header*/
 
 header
 {
@@ -34,26 +57,16 @@ header img{
     width:100%;
     height: auto;
 }
-
-h3{
-    flex-basis: 100%;
-    height: auto;
-    font-family: 'Cookie';
-    font-size: 2em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    background-color: rgba(165, 165, 165, 0.4);
-    border-radius: 10px 0 10px 0;
-}
-
+/*header*/
 
 /* Police ecriture */
-body{    
-    width: 100%;
-    height: auto;
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
+@font-face {
+    font-family: "tattoo ink";
+    src: url('assets/font/TATTI_.TTF');}
+
+/*Police ecriture*/
+
+
 /* Barre de Navigation */
 nav{      
     position: sticky;
@@ -91,9 +104,9 @@ nav{
 
 /* barre de navigation */
 
+
+
 /*main*/
-
-
 
 /*A propos de moi*/
 
@@ -127,6 +140,9 @@ nav{
 {
     padding: 1em 1.3em 0 1.3em;
 }
+
+/*a propos de moi*/
+
 /*Galerie*/
 
 #container2{
@@ -169,6 +185,9 @@ nav{
     transform:scale(2.75);
     }
 
+/*galerie*/
+
+
 /*Produit*/
 
 #container3{
@@ -187,27 +206,27 @@ nav{
     justify-content: space-evenly;
     padding-top: 2em;
 }
-.goonies1{
+.goodies1{
     flex-basis: 23%;
     height: auto;
 }
 
-.goonies2{
+.goodies2{
     flex-basis: 23%;
     height: auto;
 }
 
-.goonies3{
+.goodies3{
     flex-basis: 23%;
     height: auto;
 }
 
-.goonies4{
+.goodies4{
     flex-basis: 23%;
     height: auto;
 }
 
-.goonies1 img , .goonies2 img , .goonies3 img , .goonies4 img{
+.goodies1 img , .goodies2 img , .goodies3 img , .goodies4 img{
     width: 100%;
     height: auto;
 }
@@ -257,12 +276,14 @@ input#user_fname, input#user_lname
 }
 .formimg{
     margin-left: 7em;
-    width: 20em;
+    width: 22em;
     height: 28em;   
 }
 /* Formulaire */
 
 /* Contact */
+
+
 /*liens*/
 #container5{
     width: 100%;
@@ -273,5 +294,9 @@ input#user_fname, input#user_lname
     background-color: #d8168d;
     margin-top:10em;
 }
+
+/*liens*/
+
+
 /*footer*/
 
