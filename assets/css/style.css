@@ -286,6 +286,7 @@ input#user_fname, input#user_lname
 #sendmessage
 {
     width: 22.4em;
+    border-radius: 0 0 10px 0;
 }
 .formimg{
     margin-left: 7em;
