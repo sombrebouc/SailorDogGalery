@@ -207,22 +207,23 @@ nav{
     padding-top: 2em;
 }
 .goodies1{
-    flex-basis: 23%;
+    flex-basis: 20vh;
     height: auto;
 }
 
 .goodies2{
-    flex-basis: 23%;
+    flex-basis: 20vh;
     height: auto;
 }
 
 .goodies3{
-    flex-basis: 23%;
+    flex-basis: 20vh;
     height: auto;
+    align-items: center;
 }
 
 .goodies4{
-    flex-basis: 23%;
+    flex-basis: 20vh;
     height: auto;
 }
 
@@ -276,8 +277,8 @@ input#user_fname, input#user_lname
 }
 .formimg{
     margin-left: 7em;
-    width: 22em;
-    height: 28em;   
+    margin-top: 3em;
+    width: 25em;
 }
 /* Formulaire */
 
