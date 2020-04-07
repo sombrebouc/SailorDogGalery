@@ -2,8 +2,7 @@
 html{
     width: 80vw;
     height: auto;
-    text-justify: auto;
-    background-image: url(/SailorDogGalery/assets/images/sea.jpg);
+    text-justify: auto;    
 }
 
 header
@@ -43,7 +42,6 @@ header img{
 
 /* Police ecriture */
 body{    
-    background-image: url(/SailorDogGalery/assets/images/sea.jpg);
     width: 100%;
     height: auto;
     margin-left: 10vw;
