@@ -276,8 +276,8 @@ input#user_fname, input#user_lname
 }
 .formimg{
     margin-left: 7em;
-    width: 22em;
-    height: 28em;   
+    margin-top: 3em;
+    width: 25em;  
 }
 /* Formulaire */
 
