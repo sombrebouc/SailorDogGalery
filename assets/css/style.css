@@ -44,7 +44,8 @@ header img{
 body{    
     width: 100%;
     height: auto;
-    margin: 0 6em 0 6em;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 /* Barre de Navigation */
 nav{      
@@ -75,14 +76,17 @@ nav{
     border-radius: 10px 0px 0px 0px;
 }
 
-/* barre de navigation */
-
-/*main*/
-
 .nav5
 {
     border-radius: 0px 0px 10px 0px;
 }
+
+/* barre de navigation */
+
+/*main*/
+
+
+
 /*A propos de moi*/
 
 #container1{    
@@ -196,7 +200,7 @@ nav{
     flex-direction: row;
     flex-wrap: wrap;   
     margin-top:10em;
-    justify-content: center;
+    justify-content: center;   
 }
 
 .title-container4 {
@@ -237,7 +241,13 @@ input#user_fname, input#user_lname
 {
     width: 690px;
 }
+.formimg{
+    width: 300px;
+    height: 400px;
+    margin-left: 50px;    
+}
 /* Formulaire */
+
 /* Contact */
 /*liens*/
 #container5{
