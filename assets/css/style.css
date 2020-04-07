@@ -41,20 +41,20 @@ header
     flex-wrap: nowrap;
 }
 .banniere{
-    flex-basis: 40%;
+    flex-basis: 30%;
     height: auto;
     justify-content: center;
 }
 
 .title-banniere{
-    flex-basis: 60%;
+    flex-basis: 70%;
     height: auto;
     display: flex;
     justify-content: end;
 }
 
 header img{
-    width:100%;
+    width:80%;
     height: auto;
 }
 /*header*/
@@ -62,7 +62,8 @@ header img{
 /* Police ecriture */
 @font-face {
     font-family: "tattoo ink";
-    src: url('assets/font/TATTI_.TTF');}
+    src: url('assets/font/TATTI_.TTF');
+}
 
 /*Police ecriture*/
 
@@ -300,4 +301,9 @@ input#user_fname, input#user_lname
 
 
 /*footer*/
-
+footer{
+    margin-top: 3em;
+    text-align: center;
+    font-family: 'Indie Flower';
+    font-size: 1.3em;
+}
