@@ -292,12 +292,76 @@ input#user_lname
     margin-top: 10em;
     justify-content: center;
 }
-
+.pagefriends
+{
+    display: flex;
+}
 .pagefriends img{ 
     margin: 1.5em;
     width: 10em;
     height: 10em;
 }
+
+/* hover styles */
+
+.artist-listing {
+    position: relative;
+}
+
+.artist-image {
+    line-height: 0;
+    overflow: hidden;
+}
+
+.artist-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transform: scale(1.1);
+}
+
+.artist-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Cookie';
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background: rgba(94, 94, 94, 0.521);
+    color: white;
+
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artist-listing:hover .artist-title {
+    opacity: 1;
+}
+
+.artist-listing:hover .artist-image img {
+    filter: blur(2px);
+}
+
+
+/* for touch screen devices */
+@media (hover: none) {
+    .artist-title {
+        opacity: 1;
+    }
+
+    .artist-image img {
+        filter: blur(2px);
+    }
+}
+
+
 /*footer*/
 footer
 {
