@@ -52,7 +52,11 @@ nav{
     flex-flow: row nowrap;
     justify-content: flex-end;
     height: auto;
+<<<<<<< HEAD
     font-size: 1.8em;
+=======
+    font-size: 1.5em;
+>>>>>>> 394a26c796da183e5bd0852bf295cb12acd686b9
     font-family: 'cookie';
     list-style-type: none;
     z-index: 600;
