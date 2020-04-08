@@ -1,10 +1,10 @@
-/*general*/
-html{
+/*-----------general--------------------------------------*/
+html
+{
     width: 80vw;
     height: auto;
     text-justify: auto;    
 }
-
 header
 {
     text-align: right;
@@ -17,34 +17,46 @@ header
     flex-direction: row;
     flex-wrap: nowrap;
 }
-.banniere{
+.banniere
+{
     flex-basis: 30%;
     height: auto;
     justify-content: center;
 }
-
-.title-banniere{
+.title-banniere
+{
     flex-basis: 70%;
     height: auto;
     display: flex;
     justify-content: end;
 }
-
-header img{
+header img
+{
     width:80%;
     height: auto;
 }
-
-/* general */
-
-body{    
+body
+{    
     width: 100%;
     height: auto;
     margin-left: 10vw;
     margin-right: 10vw;
 }
-/* Barre de Navigation */
-nav{      
+h3
+{
+    flex-basis: 100%;
+    height: auto;
+    font-weight: normal;
+    font-family: 'Cookie';
+    font-size: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    background-color: rgba(165, 165, 165, 0.4);
+    border-radius: 10px 0 10px 0;
+}
+/*-----------Barre de Navigation--------------------------------------*/
+nav
+{      
     position: sticky;
     top: 0;    
     width: 100%;
@@ -58,7 +70,6 @@ nav{
     z-index: 600;
     align-items: center;
 }
-
 .navtitle
 {
     padding-right: 1.2em;
@@ -73,21 +84,14 @@ nav{
 {
     border-radius: 10px 0px 0px 0px;
 }
-
 .nav5
 {
     border-radius: 0px 0px 10px 0px;
 }
-
-/* barre de navigation */
-
-/*main*/
-
-
-
-/*A propos de moi*/
-
-#container1{    
+/*-----------main--------------------------------------*/
+/*-----------A propos de moi--------------------------------------*/
+#container1
+{    
     width: 100%;
     height: auto;
     display: flex;
@@ -95,24 +99,14 @@ nav{
     flex-wrap: wrap;
     margin-top: 6em;    
 }
-h3
+.img-container1
 {
-    flex-basis: 100%;
-    height: auto;
-    font-weight: normal;
-    font-family: 'Cookie';
-    font-size: 2em;
-    margin-bottom: 1em;
-    padding-left: 1em;
-    background-color: rgba(165, 165, 165, 0.4);
-    border-radius: 10px 0 10px 0;
-}
-.img-container1{
     flex-basis: 30%;
     height: auto;
     padding-top: 2em;
 }
-.img-container1 img{
+.img-container1 img
+{
     width: 100%;
     height: auto;
 }
@@ -128,9 +122,9 @@ h3
 {
     padding: 1em 1.3em 0 1.3em;
 }
-/*Galerie*/
-
-#container2{
+/*-----------Galerie--------------------------------------*/
+#container2
+{
     width: 100%;
     height: auto;
     display: flex;
@@ -139,17 +133,19 @@ h3
     justify-content: space-between;
     margin-top:10em;
 }
-.zoom{
+.zoom
+{
     width: 190px;
     height: 190px;
 }
-.image{
+.image
+{
     flex-basis: 100%;
     height: auto;
     padding:1em;
-
 }
-.image img{
+.image img
+{
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -159,19 +155,18 @@ h3
     -o-transition: all 1s ease; /* Opera */
     transition: all 1s ease;
 }
-
-.image:hover img {
+.image:hover img
+{
     /* L'image est grossie x 2.75 */
     -webkit-transform:scale(2.75); /* Safari et Chrome */
     -moz-transform:scale(2.75); /* Firefox */
     -ms-transform:scale(2.75); /* Internet Explorer 9 */
     -o-transform:scale(2.75); /* Opera */
     transform:scale(2.75);
-    }
-
-/*Produit*/
-
-#container3{
+}
+/*-----------Produit--------------------------------------*/
+#container3
+{
     width: 100%;
     height: auto;
     display: flex;
@@ -179,35 +174,21 @@ h3
     flex-wrap: wrap;
     margin-top:10em;
 }
-
-.img-container3{
+.img-container3
+{
     flex-basis: 100%;
     height: auto;
     display: flex;
     justify-content: space-evenly;
     padding-top: 2em;
 }
-.goodies1{
+.goodies
+{
     flex-basis: 20vh;
     height: auto;
 }
-
-.goodies2{
-    flex-basis: 20vh;
-    height: auto;
-}
-
-.goodies3{
-    flex-basis: 20vh;
-    height: auto;
-}
-
-.goodies4{
-    flex-basis: 20vh;
-    height: auto;
-}
-
-.goodies1 img , .goodies2 img , .goodies3 img , .goodies4 img{
+.goodies img
+{
     width: 100%;
     height: auto;
 }
@@ -219,15 +200,13 @@ h3
     font-family: 'Cookie';
     text-align: center;
     font-size: 2em;
-    margin-bottom: 1em;
+    margin-top: 3em;
     padding-left: 1em;
     font-weight: normal;
 }
-
-/* Produit */
-
-/*Contact*/
-#container4{
+/*-----------Contact--------------------------------------*/
+#container4
+{
     width: 100%;
     height: auto;
     display: flex;
@@ -236,9 +215,7 @@ h3
     margin-top:10em;
     justify-content: space-between;
 }
-
-/* Formulaire */
-
+/*-----------Formulaire--------------------------------------*/
 input, textarea
 {       
     border: dotted 2px;
@@ -250,40 +227,35 @@ input, textarea
     resize : none;
     font-size: 24px;
 }
-
 input#user_fname
 {
     margin-top: 2em;
     width: 10.2em;
 }
-
 input#user_lname
 {
     margin-top: 2em;
     width: 10.2em;
     border-radius: 10px 0 0 0;
 }
-
 #user_mail, #subject_mail, #message
 {
     width: 22em;
 }
-
 #sendmessage
 {
     width: 23em;
     border-radius: 0 0 10px 0;
 }
-.formimg{
+.formimg
+{
     margin-left: 7em;
     margin-top: 3em;
     width: 25em;  
 }
-/* Formulaire */
-
-/* Contact */
-/*liens*/
-#container5 {
+/*-----------liens--------------------------------------*/
+#container5
+{
     width: 100%;
     height: auto;
     display: flex;
@@ -301,25 +273,24 @@ input#user_lname
     width: 10em;
     height: 10em;
 }
-
-/* hover styles */
-
-.artist-listing {
+/*-----------hover styles--------------------------------------*/
+.artist-listing
+{
     position: relative;
 }
-
-.artist-image {
+.artist-image
+{
     line-height: 0;
     overflow: hidden;
 }
-
-.artist-image img {
+.artist-image img
+{
     filter: blur(0px);
     transition: filter 0.3s ease-in;
     transform: scale(1.1);
 }
-
-.artist-title {
+.artist-title
+{
     font-size: 1.5em;
     font-weight: bold;
     text-decoration: none;
@@ -335,34 +306,31 @@ input#user_lname
     background: rgba(94, 94, 94, 0.4);
     color: white;
 
-    /* position the text in t’ middle*/
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
-.artist-listing:hover .artist-title {
+.artist-listing:hover .artist-title
+{
     opacity: 1;
 }
 
-.artist-listing:hover .artist-image img {
+.artist-listing:hover .artist-image img
+{
     filter: blur(2px);
 }
-
-
-/* for touch screen devices */
-@media (hover: none) {
-    .artist-title {
-        opacity: 1;
+@media (hover: none)
+{
+    .artist-title
+    {
+       opacity: 1;
     }
-
-    .artist-image img {
+    .artist-image img
+    {
         filter: blur(2px);
     }
 }
-
-
-/*footer*/
+/*-----------footer--------------------------------------*/
 footer
 {
     margin-top: 3em;
